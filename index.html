@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+    <style>
+      *{
+        margin:0px ;
+        padding: 0px;
+
+      }
+     .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+
+     } 
+     .logo{
+        width: 300px;
+        height: 100px;
+
+     } 
+     .box{
+        border: 1px solid rgb(red, green, blue);
+        width: 600px;
+        height: 50px;
+        border-radius: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+     .box:hover{
+        box-shadow: 0px 0px 5px rgb(116,109, 109);
+     }
+     .box input{
+        width:500px ;
+        border:none ;
+        outline: none;
+        font-size: 1.5em;
+     }  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><img class="logo" src="images/Google_logo.png" alt=""></div>
+        <div class="box"><img src="images/search_black.svg"  alt=""> 
+         <input type="text" placeholder="search google or type url"> 
+         <a href="#"></a>  
+        <img src="images/mic-black.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>
